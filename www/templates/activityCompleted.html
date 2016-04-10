@@ -1,0 +1,30 @@
+<ion-view title="Activity Completed" id="page9">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+        <div class="spacer" style="width: 300px; height: 49px;"></div>
+        <div>
+            <div>
+                <center>
+                    <h2>Congratulations!</h2>
+
+                    <h2>{{ Date }}</h2>
+                    <div>
+                        <h3>Distance travelled: {{ distance }}</h3>
+                    </div>
+                    <div>
+                        <h3>Time Taken: {{ time }}</h3>
+                    </div>
+                    <div>
+                        <h3>Average Pace: {{ pace}}</h3>
+                    </div>
+                    <div>
+                        <h3>Calories Burned: {{ calburn }}</h3>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="spacer" style="width: 300px; height: 19px;"></div>
+        <div style="margin-right:-20px;">
+            <a ui-sref="tabsController.pastActivity" id="activityCompleted-button6" style="left:-10px;font-weight:600;" class="button button-positive button-large button-full icon-right ion-ios-arrow-forward">Save Activity</a>
+        </div>
+    </ion-content>
+</ion-view>
